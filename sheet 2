@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+   <style>
+    body{
+        background-color:cornflowerblue;
+    }
+    span{
+        color: blue;
+    }
+    a {
+            text-decoration: none;
+            color: blue;
+        }
+        p {
+            font-family: Verdana, sans-serif;
+        }
+   </style>
+    </head>
+    <body>
+        <h1 style="color:cyan; text-align: center;">Types of personal computers</h1>
+        <hr color="green">
+        <p><a href="#" title="PCs">Personal computers</a>, also known as PCs, are the least powerful, yet the most widely used and fastest-growing type of computer.
+    There are five types of personal computers:<i>desktops</i>, <i>laptops</i>, <i>tablets</i>, <i>smartphones</i>, and <i>wearables</i>.</p>
+    <p><a href="#" title="Desktop computers">Desktop computers</a> are small enough to fit on top of or alongside a desk yet are too big to carry around</p>
+    <p><a href="#" title="Laptop computers">Laptop computers</a>, also known as <b>notebook computers</b>, are portable and lightweight and fit into most briefcases.</p>
+    <p> <a href="#" title="Tablets">Tablets</a>, also known as <b>tablet computers</b> , are smaller, lighter, and generally less powerful than laptops. Like a laptop, tablets have a flat screen but typically do not have a standard keyboard. Instead, tablets typically use a virtual keyboard that appears on the screen and is touch-sensitive.</p>
+    <p><a href="#" title="Smartphones">Smartphones</a> are the most widely used personal computer. Smartphones are cell phones with wireless connections to the Internet and processing capabilities. Other mobile computers include wearable devices like Apple’s Watch.</p>
+    <img src="scren.png" alt="felo" width="600px" style="display: block; margin: auto;" >
+</body>
+</html>
