@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            table{
+                height: 600px;
+                width: 100%;
+            }
+.th0{
+    vertical-align: top;
+}
+.th1{
+    width: 90%;
+    height: 90%;
+}
+iframe{
+    width: 100%;
+    height: 100%;
+}
+</style>
+    </head>
+    <body>
+
+        <table>
+            <tr>
+                <th class="th0">
+                    <h3><a href="https://www.wikipedia.org" target="m">
+                            wikipedia</a></h3>
+                    <h3><a href="http://cu.edu.eg/ " target="m">cairo
+                            university</a></h3>
+                </th>
+                <th class="th1"><iframe name="m" src="https://www.wikipedia.org"
+                        frameborder="0"></iframe>
+                </th>
+            </tr>
+        </table>
+    </body>
+</html>
