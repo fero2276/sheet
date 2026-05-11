@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+   
+</head>
+<body>
+    <form>
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" placeholder="Enter your name"><br>
+
+        <label for="password">Password:</label><br>
+        <input type="password" name="password" id="password"><br>
+
+        <label for="phone">Phone:</label><br>
+        <input placeholder="Please enter a number" type="number" name="phone" id="phone"><br>
+
+        <label>Gender:</label><br>
+        <input type="radio" name="gender" id="male" value="male"> <label for="male">Male</label>
+        <input type="radio" name="gender" id="female" value="female"> <label for="female">Female</label><br>
+
+        <label>Preference:</label><br>
+        <input type="checkbox" name="pref" id="morning"> <label for="morning">Morning</label>
+        <input type="checkbox" name="pref" id="evening"> <label for="evening">Evening</label><br>
+
+        <label for="message">Message:</label><br>
+        <textarea placeholder="No more than 400 characters long" name="message" id="message" rows="5" cols="50"></textarea><br>
+
+        <label for="service">Service:</label><br>
+        <select id="service" name="service">
+            
+            <option value="service1">Service 1</option>
+            <option value="service2">Service 2</option>
+            <option value="service3">Service 3</option>
+        </select><br>
+
+        <label for="dob">Date of Birth:</label><br>
+        <input type="date" name="dob" id="dob"><br>
+
+        <label for="website">Website:</label><br>
+        <input type="url" id="website" ><br>
+
+        <label for="file">Upload File:</label><br>
+        <input type="file" id="file"><br>
+
+        <input type="reset" value="Reset">
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
