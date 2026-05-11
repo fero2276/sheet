@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+    .class1{
+    display: flex;
+    background-color: #2554C7;
+    justify-content: center;
+     color:#8EEBEC;
+     height: auto;
+     width: auto;
+    }
+    .img1{
+      margin: auto;
+      width: 50px;
+      height: 50px;
+      
+    }
+    h1{
+      margin-top: 0;
+     
+    }
+    .img2{
+      width: 100%;
+      height: 9cm;
+      margin-bottom: 0;
+    }
+    .class2{
+    display: flex;
+    background-color: #2554C7;
+    justify-content: center;
+     color:#8EEBEC;
+     font-style: italic;
+     text-shadow:  1.7px 1.7px #9CA889;
+    }
+   table{
+    width: 100%;
+    border-spacing: 0;
+    
+   }
+   td{
+  vertical-align: top;
+   width: 20%;
+   }
+   .td1{
+    background-color: #488AC7;
+
+   }
+   .td2{
+    background-color: #8EEBEC;
+   }
+   h2{
+    color: #4169E1;
+   }
+   ul {
+    
+    padding: 0;      
+    margin: 0;
+}
+.ul1{
+  list-style: none;
+  line-height: 2.5;
+  
+}
+a{
+  color: white;
+}
+      li ul {
+          padding-left: 20px;
+          
+      }
+
+
+  </style>
+  </head>
+  <body>
+    <div class="class1">
+      <img class="img1" src="science.jpeg" alt="photo">
+      <h1> Faculty of Science – Ain Shams University</h1>
+      <img class="img1" src="ain shams.png" alt="photo">
+    </div>
+    <div class="img2"><img class="img2" src="ainn.jpeg" alt="photo"></div>
+    <div class="class2"><h3>Welcome to Faculty of Science – Ain Shams
+        University</h3> </div>
+
+    <table>
+      <tr>
+        <td class="td1"><ul class="ul1">
+            <li><a href="#">Computer Science</a></li>
+            <li><a href="#">Statistics</a></li>
+            <li><a href="#">Physics and Computer Science</a></li>
+            <li><a href="#">Mathematics</a></li>
+          </ul></td>
+        <td class="td2">
+          <h2>Computer <br> Science</h2>
+          <h3>course code</h3>
+          <ol>
+            <li>COMP 102</li>
+            <li>COMP 104</li>
+            <li>COMP 106</li>
+          </ol>
+        </td>
+        <td class="td2">
+          <h2>Statistics</h2>
+          <h3>course code</h3>
+          <ol type="I">
+            <li>COMP 104</li>
+            <li>COMP 102
+              <ul>
+                <li>90 Final Exam</li>
+                <li>15 Mid-Term</li>
+                <li>7 Attendance</li>
+                <li>10 Activities</li>
+                <li>20 Final Lab Exam</li>
+                <li>8 Oral</li>
+              </ul>
+            </ol>
+          </td>
+          <td class="td2">
+            <h2>Physics and Computer Science</h2>
+            <h3>course code</h3>
+            <ol>
+              <li>COMP 102</li>
+              <li>COMP 104</li>
+            </ol>
+          </td>
+          <td class="td2">
+            <h2>Mathematics</h2>
+            <h3>course code</h3>
+            <ol>
+              <li>COMP 108</li>
+
+            </ol>
+          </td>
+          <td><img src="images.jpeg" alt="photo" height="300px"></td>
+        </tr>
+
+      </table>
+      <div class="class1">Copyright &copy; 2022 Level 1 Spring Semester Faculty
+        of Science - Ain Shams University </div>
+    </body>
+  </html>
