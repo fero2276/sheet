@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <style>
+    table{
+      margin: auto; margin-top: 6cm;
+      width:50%;
+     height:5cm;
+     border: 1px solid #ccc;
+     border-spacing: 0px;
+     text-indent: 4px;
+       text-align:left;
+         border-radius: 15px;
+         overflow: hidden;
+    }
+    table tr{
+     height: 1.5cm;
+    }
+    .class1{
+      background-color:cyan;
+      color: white;
+    
+    }
+    .class2{
+      background-color:lightcyan;
+      color:lightskyblue;
+    }
+    img{
+      height: 20px;
+      width: 20px;
+    }
+  </style>
+</head>
+<body>
+  <table >
+    <tr class="class1">
+      <th> rank</th><th></th><th>team</th><th>W</th><th>D</th><th>l</th><th>F</th><th>A</th><th>GD</th><th>pts</th>
+    </tr>
+    <tr>
+      <th> 1</th><th><img src="arsnal.png" alt=""></th><th>arsenal</th><th>20</th><th>7</th><th>3</th><th>59</th><th>22</th><th>+37</th><th>67</th>
+    </tr>
+     <tr class="class2">
+      <th> 2</th><th><img src="man city.jpeg" alt=""></th><th>man city</th><th>18</th><th>6</th><th>5</th><th>59</th><th>27</th><th>+32</th><th>60</th>
+    </tr>
+      <tr>
+      <th> 3</th><th><img src="man u.png" alt=""></th><th>man united</th><th>14</th><th>9</th><th>6</th><th>51</th><th>40</th><th>+11</th><th>51</th>
+    </tr>
+     <tr class="class2">
+      <th> 4</th><th><img src="aston .png" alt=""></th><th>man united</th><th>15</th><th>6</th><th>8</th><th>39</th><th>34</th><th>+5</th><th>51</th>
+    </tr>
+  </table>
+  
+</body>
+</html>
