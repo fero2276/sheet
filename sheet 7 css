@@ -27,7 +27,7 @@
 
     </head>
     <body>
-
+     <form>
         <table >
             <tr>
                 <th colspan="3" bgcolor="#9969C7"> simple HTML contace form</th>
@@ -84,5 +84,6 @@
                 <input class="felo" type="submit" value="Submit"></th>
             </tr>
         </tablr>
+    </form>
     </body>
 </html>
