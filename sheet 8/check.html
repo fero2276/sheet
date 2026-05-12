@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <style>
+    body{
+     
+      margin: 1% 0 0 30% ;
+    }
+   
+    .input{
+        width: 200px;
+    }
+    .input1{
+        width: 470px;
+    }
+    .input2{
+        width: 120px;
+    }
+    .input3{
+        width: 250px;
+    }
+    .td{
+        width:60px;
+    }
+
+   </style>
+</head>
+<body>
+     <form >
+    <h2>Shipping Details</h2>
+    <table>
+        <tr>
+            <td><label for="f">First</label></td>
+            <td><input class="input" type="text" id="f"></td>
+            
+            <td><label for="l">Last</label></td>
+            <td><input class="input" type="text" id="l"></td>
+        </tr>
+
+        <tr>
+            <td><label for="st">Street</label></td>
+            <td colspan="3"><input class="input1" type="text" id="st"></td>
+        </tr>
+         </table>
+         <table>
+        <tr>
+            <td><label for="ct">City</label></td>
+            <td><input class="input2" type="text" id="ct"></td>
+            
+            <td><label for="gov">Governate</label></td>
+            <td><input class="input2" type="text" id="gov"></td>
+            
+            <td><label for="zp">Zip</label></td>
+            <td><input class="input2" type="text" id="zp"></td>
+        </tr>
+       </table>
+
+    <h2>Payment Information</h2>
+    <table>
+        <tr>
+            <td><label for="acc">Account No.</label></td>
+            <td><input class="input3" type="text" id="acc"></td>
+        </tr>
+    </table>
+
+    <table>
+        <tr>
+            <td><label for="ex">EXP</label></td><td class="td"></td>
+            <td><label for="cv">CCV</label></td>
+        </tr>
+        <tr>
+            <td><input class="input" type="text" id="ex"></td><td></td>
+            <td><input class="input" type="text" id="cv"></td>
+        </tr>
+        <tr>
+            <td></td><td></td>
+            <td><button type="submit">Proceed</button>
+        <br>
+        <button type="reset">Back</button></td>
+        </tr>
+    </table>
+  </form>
+</body>
+</html>
