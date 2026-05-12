@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+ 
+       body{
+        background-image: url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAMAAzAMBIgACEQEDEQH/xAAYAAEBAQEBAAAAAAAAAAAAAAABAAIDB//EACIQAQEBAAEEAQUBAAAAAAAAAAABESECMUFRYRJxgZHx8P/EABUBAQEAAAAAAAAAAAAAAAAAAAAB/8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEQMRAD8A9KVIqKErFARiQNQxmEDisVACs+W6zgGHRCBxYoAK8rwgQI0AtBgFLR3BdQOGQFrNLNBaYzq0CWTAMOiNc/ALTsZWAqIrRAJ0GAdXApwDB5XYfIEYLToJFAvuuFu+Fx6BaN9GgEx1NM9QBazVAa06xVLQbla1iL6p5BvUzLpgK1nTWQa0ysRrQaOsapyDdoS8AhpXALSEB34G6sWYBgUUBM9TVrHVQGNYIYARqBb8LVuLuCSVBUGIB2Oz1V2OgzL6jWhAdG1f7ssBKUgCkcoKK/g5wAS49pfnAFZpoBFHABKAKNSLAGDGxQFBQDEYcASarDiASLGoQYxHEDLcCA0ZiQBitVnjzJ+gawXu0KAjbH3a48QCkYAzkpAlTIgZqWLAWHskC1RYQSRgDERQGIoBQV3BnBjVANVmtVmgFEoDVMGkCkQQpAC9hFapvoCVEBQOgokt57AhUqCuggD4ShBlmts0BoIoJRcoDplGKA3F5EOgktQM0bYbGc5BuUswgUotBLyvCBJACLRogNSKwwWgLwleVIBxnyRaCqjJAoaQMp4ZhwCeWVt9gqDazoNGMkGkytBrEIN5A6FagSWKdwU057SygrFLIKgVZ6q0x1ANTNq0G1KwZYDcrWucalBqHWNMoChVkG9alc4dBvTrGqUGqN4SBRL9DAa1MkDDayAa1QRAmeppnqoMZrX0hoGcWNWADgz5OaPpgGQwThUFWbGgCkOehDgLPZnDMhoNbBsABqVShQGkEBiq8IFFEvyAtYp0AYgQKSBYp3IgKxNdxYA7I0AklQWIzhdwWb/RmGfafpAgQBMZxreANvAWjQNrOq1nnxgP/9k=);
+       }
+       table{
+        border: 1px solid #9969C7;
+        margin: auto;
+       text-align: left;
+       
+       padding: 0px 15px 0px 15px;
+       }
+       .th2{
+        width:30px;
+       }
+       .felo{
+        background-color:#b08fcf;
+        margin: 10px 40px 0px 0px;
+       }
+       .width{
+        width: 100%;
+       }
+    </style>
+
+    </head>
+    <body>
+
+        <table >
+            <tr>
+                <th colspan="3" bgcolor="#9969C7"> simple HTML contace form</th>
+            </tr>
+            <tr>
+                <th><label for="name">Name:</label></th><th class="th2"></th>
+                <th><input class="width" type="text" id="name" placeholder="Enter your name"></th>
+            </tr>
+            <tr>
+                <th><label for="password">Password:</label></th><th></th>
+                <th><input class="width" type="password" name="password" id="password"></th>
+            </tr>
+            <tr>
+                <th><label for="phone">Phone:</label></th><th></th>
+                <th><input class="width" placeholder="Please enter a number" type="number" name="phone" id="phone"></th>
+            </tr>
+            <tr>
+                <th><label for="gender">Gender:</label></th><th></th>
+                <th><input type="radio" name="gender" id="male" value="male"> <label for="male">Male</label>
+                <input type="radio" name="gender" id="female" value="female"> <label for="female">Female</label></th>
+            </tr>
+            <tr>
+                <th><label for="pref">Preference:</label></th><th></th>
+                <th><input type="checkbox" name="pref" id="morning"> <label for="morning">Morning</label>
+                <input type="checkbox" name="pref" id="evening"> <label for="evening">Evening</label></th>
+            </tr>
+            <tr>
+                <th><label for="message">Message:</label></th><th></th>
+                <th><textarea placeholder="No more than 400 characters long" name="message" id="message" rows="5" cols="50"></textarea></th>
+            </tr>
+            <tr>
+                <th><label for="service">Service:</label></th><th></th>
+                <th><select  class="width" id="service" name="service">
+                         <option value="service1">Service 1</option>
+                         <option value="service2">Service 2</option>
+                         <option value="service3">Service 3</option>
+                    </select></th>
+            </tr>
+            <tr>
+                <th><label for="date">Date of Birth:</label></th><th></th>
+                <th><input class="width" type="date" name="date" id="dob"></th>
+            </tr>
+            <tr>
+                <th><label for="website">Website:</label></th><th></th>
+                <th><input class="width" type="url" id="website" ></th>
+            </tr>
+            <tr>
+                <td><label for="file">Upload File:</label></td><th></th>
+                <td><input type="file" id="file"></td>
+            </tr>
+            <tr>
+                <th></th><th></th>
+                <th><input class="felo" type="reset" value="Reset">
+                <input class="felo" type="submit" value="Submit"></th>
+            </tr>
+        </tablr>
+    </body>
+</html>
