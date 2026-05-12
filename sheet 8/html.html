@@ -1,48 +1,75 @@
 <!DOCTYPE html>
 <html>
-<head lang="en">
-    <meta charset="UTF-8">
+<head>
+<style>
+    body{
+        background:#D8BFD8;
+        margin:0px 100px ;
+        font-family: cursive;
+    }
+    .div1{
+       display: flex;
+        height:80px;
+        gap:40%;
+    }
+    nav{
+       display: flex;
+        background-color: rgb(204, 36, 204);
+        height:50px;
+        align-items:center;
+        justify-content: center;
+        
+    }
+    a{
+        padding:0px 60px;
+        text-decoration: none;
+        color: white;
+    }
+    iframe{
+       
+     margin: 0;
+      width: 100%;
+      height: 650px;
+    }
+    .li0{
+        position: relative;
+        display: inline-block;
+    }
+    .li1{
+        display: none;
+        position: absolute;
+        z-index: 999;
+       background-color: blueviolet;
+       list-style: none;
+    }
+    .li0:hover .li1{
+        display: block;
+    }
+</style>
+   
 </head>
 <body>
-    <form>
-        <label for="name">Name:</label><br>
-        <input type="text" id="name" placeholder="Enter your name"><br>
-
-        <label for="password">Password:</label><br>
-        <input type="password" name="password" id="password"><br>
-
-        <label for="phone">Phone:</label><br>
-        <input placeholder="Please enter a number" type="number" name="phone" id="phone"><br>
-
-        <label for="gender">Gender:</label><br>
-        <input type="radio" name="gender" id="male" value="male"> <label for="male">Male</label>
-        <input type="radio" name="gender" id="female" value="female"> <label for="female">Female</label><br>
-
-        <label for="pref">Preference:</label><br>
-        <input type="checkbox" name="pref" id="morning"> <label for="morning">Morning</label>
-        <input type="checkbox" name="pref" id="evening"> <label for="evening">Evening</label><br>
-
-        <label for="message">Message:</label><br>
-        <textarea placeholder="No more than 400 characters long" name="message" id="message" rows="5" cols="50"></textarea><br>
-
-        <label for="service">Service:</label><br>
-        <select id="service" name="service">
-            <option value="service1">Service 1</option>
-            <option value="service2">Service 2</option>
-            <option value="service3">Service 3</option>
-        </select><br>
-
-        <label for="dob">Date of Birth:</label><br>
-        <input type="date" name="dob" id="dob"><br>
-
-        <label for="website">Website:</label><br>
-        <input type="url" id="website" ><br>
-
-        <label for="file">Upload File:</label><br>
-        <input type="file" id="file"><br>
-
-        <input type="reset" value="Reset">
-        <input type="submit" value="Submit">
-    </form>
+    <div class="div1">
+        <img width="80px" src="https://science.asu.edu.eg/storage/uploads/2021/Nov/centers/dNhndMof5183DsCF.jpg" alt="">
+        <h1>sheet8</h1>
+        <img width="80px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPexnp__kxYwObIwrPlJUGiJ9BTq5l316E5A&s" alt="">
+    </div>
+    <nav>
+        <a target="iframe" href="home.html">home</a>
+        <a href="#">about</a>
+        <ul><li class="li0"><a href="#">brand</a>
+        <ul class="li1">
+         <li><a target="iframe" href="iphone.html">iphone</a></li>
+         <li><a href="#">samsung</a></li>
+        </ul>
+        </li>
+            
+            
+            
+        </ul>
+        <a href="#"> content</a>
+    </nav>
+    <iframe name="iframe" width="100%" height="100%" scrolling="no" src="home.html" frameborder="0"></iframe>
+    
 </body>
 </html>
